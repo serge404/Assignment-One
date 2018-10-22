@@ -1,0 +1,31 @@
+.text 
+	main: # Prints my first name
+	li $v0, 11 # Allows me to print characters
+	la $a0, 83 # Prints character 'S'
+	syscall
+	addi $a0, $a0, 18 # Prints character 'e'
+	syscall
+	addi $a0, $a0, 7 # Prints character 'l'
+	syscall
+	addi $a0, $a0, -7 # Prints character 'e'
+	syscall
+	addi $a0, $a0, 9 # Prints character 'n'
+	syscall
+	addi $a0, $a0, 1 # Prints character 'o'
+	syscall
+	addi $a0, $a0, 6 # Prints character 'u'
+	syscall
+	addi $a0, $a0, -73 # Prints character ','
+	syscall
+	addi $a0, $a0, -12 # Prints character ' '
+	syscall
+	addi $a0, $a0, 51 # Prints character 'S'
+	syscall
+	addi $a0, $a0, 18 # Prints character 'e'
+	syscall
+	addi $a0, $a0, 13 # Prints character 'r'
+	syscall
+	addi $a0, $a0, -11 # Prints character 'g'
+	syscall
+	addi $a0, $a0, -2 # Prints character 'e'
+	syscall
