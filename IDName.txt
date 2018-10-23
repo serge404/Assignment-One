@@ -1,0 +1,53 @@
+.text 
+	main: # Prints my first name
+	li $v0, 11 # Allows me to print characters
+	la $a0, 64 # Prints character '@'
+	syscall
+	li $v0, 1 # Allows me to print integers
+	li $a0, 0 # Prints integer 0
+	syscall
+	li $a0, 2 # Prints integer 2
+	syscall
+	li $a0, 8 # Prints integer 8
+	syscall
+	li $a0, 3 # Prints integer 3
+	syscall
+	li $a0, 7 # Prints integer 7
+	syscall
+	li $a0, 9 # Prints integer 9
+	syscall
+	li $a0, 6 # Prints integer 6
+	syscall
+	li $a0, 3 # Prints integer 3
+	syscall
+	li $v0, 11 # Allows me to print characters
+	li $a0, 10 # Newline
+	syscall
+	addi $a0, $a0, 73 # Prints character 'S'
+	syscall
+	addi $a0, $a0, 18 # Prints character 'e'
+	syscall
+	addi $a0, $a0, 7 # Prints character 'l'
+	syscall
+	addi $a0, $a0, -7 # Prints character 'e'
+	syscall
+	addi $a0, $a0, 9 # Prints character 'n'
+	syscall
+	addi $a0, $a0, 1 # Prints character 'o'
+	syscall
+	addi $a0, $a0, 6 # Prints character 'u'
+	syscall
+	addi $a0, $a0, -73 # Prints character ','
+	syscall
+	addi $a0, $a0, -12 # Prints character ' '
+	syscall
+	addi $a0, $a0, 51 # Prints character 'S'
+	syscall
+	addi $a0, $a0, 18 # Prints character 'e'
+	syscall
+	addi $a0, $a0, 13 # Prints character 'r'
+	syscall
+	addi $a0, $a0, -11 # Prints character 'g'
+	syscall
+	addi $a0, $a0, -2 # Prints character 'e'
+	syscall
